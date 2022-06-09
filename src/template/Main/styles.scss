@@ -1,0 +1,36 @@
+@import "../../assets/styles/variables.scss";
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+
+    .main_title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        width: 100%;
+
+        .modal_btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px;
+            border: 2px solid $blue_color;
+            border-radius: 5px;
+            background: $white_color;
+            cursor: pointer;
+            font-family: "Open Sans";
+
+            &:hover {
+                background: $light_blue_color;
+                color: $white_color;
+                transition: 0.5s;
+            }
+        }
+    }
+}

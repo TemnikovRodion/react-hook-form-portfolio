@@ -1,0 +1,106 @@
+@import '../../assets/styles/variables.scss';
+
+.animation_wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .animation_container {
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        border: 2px solid $light_blue_color;
+        border-radius: 50%;
+        animation: animate 3s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #04fc43;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #04fc43;
+        }
+
+        .first_item {
+            background: #04fc43;
+            width: 15px;
+            height: 15px;
+        }
+
+
+    }
+
+    .animation_container2 {
+        position: absolute;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        border: 2px solid $light_blue_color;
+        animation: animate 6s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: $orange_color;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px $orange_color;
+        }
+
+        .second_item {
+            background: $orange_color;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .animation_container3 {
+        position: absolute;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        border: 2px solid $light_blue_color;
+        animation: animate 2s linear infinite;
+
+        ::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #a0f;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -7px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #a0f;
+        }
+
+        .third_item {
+            background: #a0f;
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

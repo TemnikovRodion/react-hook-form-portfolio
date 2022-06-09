@@ -1,0 +1,14 @@
+@import '../../../assets/styles/variables.scss';
+
+
+.input_error {
+    display: flex;
+    justify-content: center;
+    color: $blue_color;
+}
+
+.form_input_button {
+    border: 1px solid $light_blue_color;
+    padding: 5px 10px;
+    cursor: pointer;
+}
