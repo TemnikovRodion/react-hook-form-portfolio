@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hook-form-portfolio/static/css/main.d3a03a60.css",
-    "main.js": "/react-hook-form-portfolio/static/js/main.3ca111b5.js",
+    "main.css": "/react-hook-form-portfolio/static/css/main.7e00d9ba.css",
+    "main.js": "/react-hook-form-portfolio/static/js/main.198bb023.js",
     "static/media/open-sans-all-400-normal.woff": "/react-hook-form-portfolio/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
     "static/media/icons.svg": "/react-hook-form-portfolio/static/media/icons.46fc7fe99349965bb0a579ce0716514b.svg",
     "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
@@ -13,11 +13,11 @@
     "static/media/open-sans-vietnamese-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-vietnamese-400-normal.6517a5545bd31eeb4a61.woff2",
     "static/media/open-sans-greek-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
     "index.html": "/react-hook-form-portfolio/index.html",
-    "main.d3a03a60.css.map": "/react-hook-form-portfolio/static/css/main.d3a03a60.css.map",
-    "main.3ca111b5.js.map": "/react-hook-form-portfolio/static/js/main.3ca111b5.js.map"
+    "main.7e00d9ba.css.map": "/react-hook-form-portfolio/static/css/main.7e00d9ba.css.map",
+    "main.198bb023.js.map": "/react-hook-form-portfolio/static/js/main.198bb023.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3a03a60.css",
-    "static/js/main.3ca111b5.js"
+    "static/css/main.7e00d9ba.css",
+    "static/js/main.198bb023.js"
   ]
 }
