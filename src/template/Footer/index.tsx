@@ -15,7 +15,7 @@ const Footer = ({ }: Props): React.ReactElement => {
     return (
         <div id="footer">
             <div className="footer_title">
-                <p className="footer_title_text">Приложение реализовано с целью демонстрации навыков</p>
+                <p className="footer_title_text">Приложение реализовано с целью демонстрации навыков и не несет коммерческой тайны</p>
             </div>
             <div className="footer_animation">
                 <Animation />

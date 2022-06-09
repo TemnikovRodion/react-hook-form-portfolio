@@ -36,3 +36,14 @@
         }
     }
 }
+
+.modal_window {
+    max-width: 300px;
+}
+
+/* АДАПТАЦИЯ К ШИРИНЕ ЭКРАНА ТЕЛЕФОНА */
+@media(max-width: $mobile_width) {
+    .modal_window {
+        max-width: 350px !important;
+    }
+}

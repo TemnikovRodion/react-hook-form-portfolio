@@ -43,3 +43,37 @@
     }
 
 }
+
+/* АДАПТАЦИЯ К ШИРИНЕ ЭКРАНА ТЕЛЕФОНА */
+@media(max-width: $mobile_width) {
+    #header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        .header_socials {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .header_technologies {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            grid-area: 1 / 2 / 3 / 3;
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .header_contacts {
+            grid-area: 2 / 1 / 3 / 2;
+        }
+    }
+}

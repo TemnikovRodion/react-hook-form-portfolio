@@ -84,3 +84,15 @@ h2 {
         background-position: 0% 50%;
     }
 }
+
+
+/* АДАПТАЦИЯ К ШИРИНЕ ЭКРАНА ТЕЛЕФОНА */
+@media(max-width: $mobile_width) {
+    body {
+        font-size: 0.9em;
+    }
+
+    #root {
+        grid-template-rows: 120px auto 200px;
+    }
+}

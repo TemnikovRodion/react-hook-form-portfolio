@@ -34,3 +34,20 @@
         }
     }
 }
+
+@media (max-width: $tablet_width) {
+    #main {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: $mobile_width) {
+    #main {
+        font-size: 0.8em;
+
+        h2 {
+            padding: 0px 10px;
+            text-align: center;
+        }
+    }
+}
