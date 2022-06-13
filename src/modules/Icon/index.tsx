@@ -1,6 +1,8 @@
 import React from "react";
 import IconsSVG from "../../assets/images/svg/icons.svg";
 
+import "./styles.scss"
+
 type Props = {
     name: string,
     size: number

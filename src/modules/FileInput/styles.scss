@@ -1,0 +1,22 @@
+@import '../../assets/styles/variables.scss';
+
+.form_input_wrapper {
+    padding: 0 !important;
+}
+
+.form_input_image {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+
+    .form_input_error {
+        display: flex;
+        justify-content: center;
+        color: $red_color;
+    }
+}
+
+img {
+    height: 100px;
+}

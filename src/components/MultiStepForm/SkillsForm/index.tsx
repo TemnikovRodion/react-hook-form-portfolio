@@ -27,12 +27,12 @@ const SkillsForm = (): React.ReactElement => {
                     min: 0,
                     max: 100000
                 })} />
-            {errors?.salary?.type === "required" && <p className="input_error">Укажите желаемую зарплату</p>}
+            {errors?.salary?.type === "required" && <p className="input_error">Укажите желаемую зарплату!</p>}
             {errors?.salary?.type === "max" && (
-                <p className="input_error">Допустимые значения от 0 до 100000 руб.</p>
+                <p className="input_error">Допустимые значения от 0 до 100000 руб!</p>
             )}
             {errors?.salary?.type === "min" && (
-                <p className="input_error">Допустимые значения от 0 до 100000 руб.</p>
+                <p className="input_error">Допустимые значения от 0 до 100000 руб!</p>
             )}
         </div>
     )

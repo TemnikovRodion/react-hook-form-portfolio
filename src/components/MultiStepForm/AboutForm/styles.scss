@@ -4,11 +4,22 @@
 .input_error {
     display: flex;
     justify-content: center;
-    color: $blue_color;
+    color: $red_color;
 }
 
-.form_input_button {
+
+.form_input_wrapper {
+    width: 100%;
+    position: relative;
+    padding: 10px 15px;
     border: 1px solid $light_blue_color;
-    padding: 5px 10px;
-    cursor: pointer;
+
+    .form_input_label {
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .form_input_button {
+        display: none;
+    }
 }

@@ -25,7 +25,7 @@ const Modal = ({ modalIsOpen, closeModal }: Props): React.ReactElement => {
             >
                 <div className='modal_window'>
                     <div className='modal_title'>
-                        <h2>Заполните поля</h2>
+                        <h2>Заполните форму</h2>
                         <button className='btn_close' onClick={closeModal}><Icon name="close" size={20} /></button>
                     </div>
                     <MultiStepFrom closeModal={closeModal} />

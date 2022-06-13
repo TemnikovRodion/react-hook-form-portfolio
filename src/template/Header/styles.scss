@@ -19,6 +19,12 @@
         column-gap: 30px;
         list-style: none;
         height: 100%;
+
+        .header_social_link {
+            :hover {
+                fill: $light_cyan_color;
+            }
+        }
     }
 
     .header_technologies {

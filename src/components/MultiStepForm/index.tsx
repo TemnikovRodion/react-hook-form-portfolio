@@ -1,4 +1,4 @@
-import React, { useState, useId } from "react";
+import React, { useState } from "react";
 import { FormProvider, useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 
@@ -19,14 +19,11 @@ type Props = {
     closeModal: () => void,
 };
 
-type FormData = Omit<TableDataRow, "picture"> & {
-    picture: FileList
-};
+type FormData = TableDataRow;
 
 const MultiStepForm = ({ closeModal }: Props): React.ReactElement => {
 
     const dispatch = useDispatch();
-    const id = useId();
 
     const stepCounts = 4;
     const [activeStep, setActiveStep] = useState(1);
@@ -38,32 +35,9 @@ const MultiStepForm = ({ closeModal }: Props): React.ReactElement => {
     });
 
     const onSubmit = (data: FormData) => {
-        const tableRow: TableDataRow = {
-            ...data,
-            id: id,
-            picture: {
-                name: data.picture[0].name,
-                body: ''
-            }
-        }
-        const promise = new Promise<string>((resolve) => {
-            const fileReader = new FileReader();
-            fileReader.onloadend = () => {
-                const file = fileReader.result
-                if (file) {
-                    resolve(file.toString());
-                }
-            }
-            fileReader.readAsDataURL(data.picture[0]);
-        })
-
-        promise.then((file) => {
-            tableRow.picture.body = file.toString();
-            dispatch(addInfo(tableRow));
-            console.log(tableRow);
-            closeModal();
-        })
-
+        dispatch(addInfo(data));
+        console.log(data);
+        closeModal();
     };
 
     const handlePrev = () => {

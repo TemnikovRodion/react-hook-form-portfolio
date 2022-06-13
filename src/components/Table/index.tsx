@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 //Импорт redux/store
 import { deleteInfo } from "../../redux/tableSlice";
-import { RootState } from '@/redux/store';
+import { RootState } from '../../redux/store';
 
 //Импорт компонентов
 import Icon from "../../modules/Icon";

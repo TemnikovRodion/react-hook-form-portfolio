@@ -21,16 +21,16 @@
             position: absolute;
             width: 15px;
             height: 15px;
-            background: #04fc43;
+            background: $light_cyan_color;
             left: 50%;
             transform: translateX(-50%);
             top: -7px;
             border-radius: 50%;
-            box-shadow: 0 0 15px #04fc43;
+            box-shadow: 0 0 15px $light_cyan_color;
         }
 
         .first_item {
-            background: #04fc43;
+            background: $light_cyan_color;
             width: 15px;
             height: 15px;
         }
@@ -51,16 +51,16 @@
             position: absolute;
             width: 15px;
             height: 15px;
-            background: $orange_color;
+            background: $cyan_color;
             left: 50%;
             transform: translateX(-50%);
             top: -7px;
             border-radius: 50%;
-            box-shadow: 0 0 15px $orange_color;
+            box-shadow: 0 0 15px $cyan_color;
         }
 
         .second_item {
-            background: $orange_color;
+            background: $cyan_color;
             width: 15px;
             height: 15px;
         }
@@ -79,16 +79,16 @@
             position: absolute;
             width: 15px;
             height: 15px;
-            background: #a0f;
+            background: $dark_blue_color;
             left: 50%;
             transform: translateX(-50%);
             top: -7px;
             border-radius: 50%;
-            box-shadow: 0 0 15px #a0f;
+            box-shadow: 0 0 15px $dark_blue_color;
         }
 
         .third_item {
-            background: #a0f;
+            background: $dark_blue_color;
             width: 15px;
             height: 15px;
         }

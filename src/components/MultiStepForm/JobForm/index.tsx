@@ -25,9 +25,9 @@ const JobForm = (): React.ReactElement => {
                     max: 10
                 })
             } />
-            {errors?.currentCompany?.type === "required" && <p className="input_error">Введите кол-во компаний</p>}
+            {errors?.currentCompany?.type === "required" && <p className="input_error">Введите кол-во компаний!</p>}
             {errors?.currentCompany?.type === "max" && (
-                <p className="input_error">Допустимые значения от 0 до 10</p>
+                <p className="input_error">Допустимые значения от 0 до 10!</p>
             )}
         </div>
     )
