@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-hook-form-portfolio/static/css/main.56a513cd.css",
-    "main.js": "/react-hook-form-portfolio/static/js/main.000db6b6.js",
+    "main.js": "/react-hook-form-portfolio/static/js/main.cb22d2d3.js",
     "static/media/open-sans-all-400-normal.woff": "/react-hook-form-portfolio/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
     "static/media/icons.svg": "/react-hook-form-portfolio/static/media/icons.46fc7fe99349965bb0a579ce0716514b.svg",
     "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
@@ -14,10 +14,10 @@
     "static/media/open-sans-greek-ext-400-normal.woff2": "/react-hook-form-portfolio/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
     "index.html": "/react-hook-form-portfolio/index.html",
     "main.56a513cd.css.map": "/react-hook-form-portfolio/static/css/main.56a513cd.css.map",
-    "main.000db6b6.js.map": "/react-hook-form-portfolio/static/js/main.000db6b6.js.map"
+    "main.cb22d2d3.js.map": "/react-hook-form-portfolio/static/js/main.cb22d2d3.js.map"
   },
   "entrypoints": [
     "static/css/main.56a513cd.css",
-    "static/js/main.000db6b6.js"
+    "static/js/main.cb22d2d3.js"
   ]
 }
