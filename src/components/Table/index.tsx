@@ -21,9 +21,11 @@ const Table = ({ }: Props): React.ReactElement => {
 
     const dispatch = useDispatch();
     const tableData = useSelector((state: RootState) => state.table.tableData);
-
     const onDelete = (id: string) => {
+        debugger;
         dispatch(deleteInfo(id));
+        console.log(id);
+        console.log(deleteInfo(id));
     }
 
     const tableList = tableData.map((item, index) =>
